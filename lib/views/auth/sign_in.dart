@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
+import 'package:mybook/choose_page.dart';
 import 'package:mybook/constant.dart';
 import 'package:mybook/controller/bottom_sheet.dart';
 import 'package:get/get.dart';
@@ -206,7 +207,7 @@ class _SignInPageState extends State<SignInPage> {
           borderRadius: BorderRadius.circular(30),
         ),
         child: Center(child: InkWell(
-          onTap: () => Get.to(const HomePage()),
+          onTap: () => Get.to(const ChoosePage()),
           child: Text('Sign In', style: small.copyWith(fontWeight: FontWeight.w600)))),
       ),
       const SizedBox(height: 15,),
