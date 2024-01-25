@@ -100,7 +100,7 @@ class _SignInPageState extends State<SignInPage> {
                                                   color: Colors.amber
                                                       .withOpacity(0.8),
                                                 )
-                                              : Icon(Icons.circle_outlined),
+                                              : const Icon(Icons.circle_outlined),
                                         );
                                       },
                                       itemCount: chooseLanguages.length,

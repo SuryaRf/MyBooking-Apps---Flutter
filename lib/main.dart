@@ -4,8 +4,11 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:mybook/choose_page.dart';
 import 'package:mybook/views/auth/sign_in.dart';
 import 'package:mybook/views/screen/home_page/home_page.dart';
+import 'package:mybook/views/screen/movie/moviePage.dart';
+import 'package:mybook/views/screen/ticket/ticket_page.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -27,7 +30,7 @@ class MyApp extends StatelessWidget {
         
       ),
             
-      home: SignInPage(),
+      home: const SignInPage(),
     );
   }
 }

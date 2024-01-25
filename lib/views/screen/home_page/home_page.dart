@@ -4,6 +4,7 @@ import 'package:mybook/constant.dart';
 import 'package:mybook/models/coming_soon.dart';
 import 'package:mybook/models/movie_news.dart';
 import 'package:mybook/models/now_playing.dart';
+import 'package:mybook/models/now_playing_grid.dart';
 import 'package:mybook/models/service.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 

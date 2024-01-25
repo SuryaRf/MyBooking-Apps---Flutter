@@ -7,8 +7,11 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      body: Center(
-        child: Text('PROFILE PAGE', style: large,),
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Image.asset('assets/images/profile.png'),
+        ),
       ),
     );
   }
